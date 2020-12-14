@@ -328,7 +328,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     let xs
     let ys
 
-    window.addEventListener('mousedown', e => {
+    window.addEventListener('pointerdown', e => {
         flex = tutorial_canvas.getBoundingClientRect();
         xs = e.clientX - flex.left;
         ys = e.clientY - flex.top;
